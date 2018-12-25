@@ -32,9 +32,6 @@ RUN \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
 
-# add local files
-COPY root/ /
-
 # Volumes and Ports
 WORKDIR /usr/lib/unifi
 VOLUME /config
